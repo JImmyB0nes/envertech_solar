@@ -1,9 +1,9 @@
 """The Envertech integration."""
 
+import homeassistant.helpers.config_validation as cv
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import ConfigEntryNotReady
-import homeassistant.helpers.config_validation as cv
 
 from .const import DOMAIN
 from .sensor import EnvertechDataUpdateCoordinator

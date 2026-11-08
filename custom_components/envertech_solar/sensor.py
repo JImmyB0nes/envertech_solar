@@ -4,7 +4,6 @@ from datetime import datetime, timedelta
 
 import aiohttp
 import async_timeout
-
 from homeassistant.components.sensor import (
     SensorDeviceClass,
     SensorEntity,
@@ -76,10 +75,9 @@ async def fetch_data(session: aiohttp.ClientSession, station_id: str):
     """Fetch current data from the Envertech API."""
     params = {"stationID": station_id}
 
-    async with async_timeout.timeout(10):
-        async with session.post(API_URL, params=params) as response:
-            response.raise_for_status()
-            payload = await response.json()
+    async with async_timeout.timeout(10), session.post(API_URL, params=params) as response:
+        response.raise_for_status()
+        payload = await response.json()
 
     # The API returns HTTP 200 even on errors; an unknown station yields
     # {"Status": "1", "Result": "...", "Data": null}.
