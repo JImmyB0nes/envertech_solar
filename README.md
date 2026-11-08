@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[https://github.com/jimmybonesde/Envertech_local/raw/main/brand/logo.png](https://github.com/JImmyB0nes/envertech_solar/blob/main/custom_components/envertech_solar/brand/logo.png)" alt="Envertech Solar" width="180">
+  <img src="custom_components/envertech_solar/brand/logo.png" alt="Envertech Solar" width="180">
 </p>
 
 <h1 align="center">Envertech Solar for Home Assistant</h1>
@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jimmybonesde/envertech_solar/releases"><img src="https://img.shields.io/github/v/release/jimmybonesde/envertech_solar?style=flat&logo=github" alt="Aktuelles Release"></a>
-  <a href="https://github.com/jimmybonesde/envertech_solar/stargazers"><img src="https://img.shields.io/github/stars/jimmybonesde/envertech_solar?style=flat&logo=github" alt="GitHub Stars"></a>
+  <a href="https://github.com/JImmyB0nes/envertech_solar/releases"><img src="https://img.shields.io/github/v/release/JImmyB0nes/envertech_solar?style=flat&logo=github" alt="Aktuelles Release"></a>
+  <a href="https://github.com/JImmyB0nes/envertech_solar/stargazers"><img src="https://img.shields.io/github/stars/JImmyB0nes/envertech_solar?style=flat&logo=github" alt="GitHub Stars"></a>
   <a href="https://www.hacs.xyz/"><img src="https://img.shields.io/badge/HACS-Default-41BDF5?logo=homeassistant&logoColor=white" alt="HACS"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT-Lizenz"></a>
 </p>
@@ -39,7 +39,7 @@
 
 ### HACS · empfohlen
 
-[![Diese Integration in HACS öffnen](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=jimmybonesde&repository=envertech_solar&category=integration)
+[![Diese Integration in HACS öffnen](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=JImmyB0nes&repository=envertech_solar&category=integration)
 
 1. Öffne **HACS → Integrationen**.
 2. Suche nach **Envertech Solar** und installiere die Integration.
@@ -122,8 +122,8 @@ Passe das Aktualisierungsintervall über **Einstellungen → Geräte & Dienste �
 
 Fehlerberichte und Verbesserungsvorschläge sind willkommen:
 
-- 🐛 [Issue erstellen](https://github.com/jimmybonesde/envertech_solar/issues)
-- 🔀 [Pull Request öffnen](https://github.com/jimmybonesde/envertech_solar/pulls)
+- 🐛 [Issue erstellen](https://github.com/JImmyB0nes/envertech_solar/issues)
+- 🔀 [Pull Request öffnen](https://github.com/JImmyB0nes/envertech_solar/pulls)
 - ⭐ Das Repository markieren, wenn es dir hilft
 
 ## 🙏 Credits & Lizenz
