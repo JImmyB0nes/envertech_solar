@@ -11,6 +11,7 @@
 <p align="center">
   <a href="https://github.com/JImmyB0nes/envertech_solar/releases"><img src="https://img.shields.io/github/v/release/JImmyB0nes/envertech_solar?style=flat&logo=github" alt="Aktuelles Release"></a>
   <a href="https://github.com/JImmyB0nes/envertech_solar/stargazers"><img src="https://img.shields.io/github/stars/JImmyB0nes/envertech_solar?style=flat&logo=github" alt="GitHub Stars"></a>
+  <a href="https://jimmybones.de/scripts/envertech-cloud"><img src="https://img.shields.io/badge/Forgejo-Mirror-blue?style=flat&logo=gitea&logoColor=white" alt="Forgejo Mirror"></a>
   <a href="https://www.hacs.xyz/"><img src="https://img.shields.io/badge/HACS-Default-41BDF5?logo=homeassistant&logoColor=white" alt="HACS"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT-Lizenz"></a>
 </p>
