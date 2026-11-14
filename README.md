@@ -47,7 +47,7 @@
 4. Öffne **Einstellungen → Geräte & Dienste → Integration hinzufügen**.
 5. Suche nach **Envertech Solar** und gib deine Station-ID ein.
 
-> 💡 Ein benutzerdefiniertes Repository ist nicht erforderlich.
+> 💡 Das Repository ist von `jimmybonesde/envertech_solar` nach `JImmyB0nes/envertech_solar` umgezogen. Solange der HACS-Standard-Store noch auf die alte Adresse zeigt, kannst du `https://github.com/JImmyB0nes/envertech_solar` unter **HACS → ⋮ → Benutzerdefinierte Repositories** (Kategorie: *Integration*) hinzufügen.
 
 ### Manuell
 
