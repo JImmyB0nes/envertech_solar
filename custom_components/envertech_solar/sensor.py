@@ -177,7 +177,7 @@ class EnvertechSensor(CoordinatorEntity, SensorEntity):
             manufacturer=MANUFACTURER,
             model="Envertech API",
             entry_type="service",
-            configuration_url="https://github.com/jimmybonesde/envertech_solar",
+            configuration_url="https://github.com/JImmyB0nes/envertech_solar",
         )
 
     @property
@@ -257,7 +257,7 @@ class EnvertechPeakTodaySensor(CoordinatorEntity, RestoreEntity, SensorEntity):
             manufacturer=MANUFACTURER,
             model="Envertech API",
             entry_type="service",
-            configuration_url="https://github.com/jimmybonesde/envertech_solar",
+            configuration_url="https://github.com/JImmyB0nes/envertech_solar",
         )
 
     @property

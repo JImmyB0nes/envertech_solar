@@ -1,12 +1,12 @@
 {
   "domain": "envertech_solar",
   "name": "Envertech Solar",
-  "codeowners": ["@jimmybonesde"],
+  "codeowners": ["@JImmyB0nes"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/jimmybonesde/envertech_solar",
+  "documentation": "https://github.com/JImmyB0nes/envertech_solar",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/jimmybonesde/envertech_solar/issues",
+  "issue_tracker": "https://github.com/JImmyB0nes/envertech_solar/issues",
   "requirements": [],
-  "version": "1.4.4"
+  "version": "1.4.5"
 }
