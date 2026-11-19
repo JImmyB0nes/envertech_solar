@@ -18,6 +18,7 @@
 
 <p align="center">
   <a href="https://github.com/JImmyB0nes/envertech_solar/releases/latest/download/envertech_solar.zip"><img src="https://img.shields.io/github/downloads/JImmyB0nes/envertech_solar/total?label=DOWNLOADS&labelColor=555&color=%2384b91e&cacheSeconds=3600" alt="Downloads"></a>
+  <a href="https://git.jimmybones.de/jimmybones/envertech_solar"><img src="https://img.shields.io/badge/FORGEJO%20MIRROR-OPEN-555?style=flat-square&logo=gitea&logoColor=white" alt="Forgejo Mirror"></a>
 </p>
 
 <p align="center">
