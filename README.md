@@ -17,6 +17,10 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/JImmyB0nes/envertech_solar/releases/latest/download/envertech_solar.zip"><img src="https://img.shields.io/github/downloads/JImmyB0nes/envertech_solar/total?label=DOWNLOADS&labelColor=555&color=%2384b91e&cacheSeconds=3600" alt="Downloads"></a>
+</p>
+
+<p align="center">
   <a href="#-installation">Installation</a> ·
   <a href="#-setup">Setup</a> ·
   <a href="#-sensors">Sensors</a> ·
