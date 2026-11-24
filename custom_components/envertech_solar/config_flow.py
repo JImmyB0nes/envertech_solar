@@ -21,9 +21,13 @@ class EnvertechConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
     async def async_step_user(self, user_input=None):
         if user_input is not None:
+            station_id = user_input["station_id"].strip()
+            await self.async_set_unique_id(station_id)
+            self._abort_if_unique_id_configured()
+
             return self.async_create_entry(
                 title="Envertech Solar",
-                data=user_input,
+                data={**user_input, "station_id": station_id},
                 options={"update_interval": DEFAULT_UPDATE_INTERVAL},
             )
 
