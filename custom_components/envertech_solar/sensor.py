@@ -1,9 +1,9 @@
+import asyncio
 import logging
 import re
 from datetime import datetime, timedelta
 
 import aiohttp
-import async_timeout
 from homeassistant.components.sensor import (
     SensorDeviceClass,
     SensorEntity,
@@ -75,7 +75,7 @@ async def fetch_data(session: aiohttp.ClientSession, station_id: str):
     """Fetch current data from the Envertech API."""
     params = {"stationID": station_id}
 
-    async with async_timeout.timeout(10), session.post(API_URL, params=params) as response:
+    async with asyncio.timeout(10), session.post(API_URL, params=params) as response:
         response.raise_for_status()
         payload = await response.json()
 
